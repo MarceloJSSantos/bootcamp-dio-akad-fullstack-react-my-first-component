@@ -1,69 +1,80 @@
-# React + TypeScript + Vite
+# 👤 Meu Perfil - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples de perfil pessoal desenvolvida com React, TypeScript e Vite como projeto-aula no curso de Intrução ao React dp Bootcamp Akad - Fullstack Developer da DIO.
 
-Currently, two official plugins are available:
+Ele exibe informações sobre o desenvolvedor, incluindo foto, habilidades técnicas e comportamentais, além de experiências profissionais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Linguagens:** TypeScript, JavaScript, HTML, CSS
+- **Framework:** React
+- **Build Tool:** Vite
+- **Bibliotecas:**
+  - ESLint (análise de código)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📋 Requisitos
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Node.js >= 18
+- npm >= 9
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📦 Instalação
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone o repositório e instale as dependências:
+
+```sh
+git clone https://github.com/MarceloJSSantos/bootcamp-dio-akad-fullstack-react-my-first-component
+cd my-first-component
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ▶️ Como executar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Para rodar o projeto em modo de desenvolvimento:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```sh
+npm run dev
 ```
+
+Acesse [http://localhost:5173](http://localhost:5173) no navegador.
+
+Para gerar uma build de produção:
+
+```sh
+npm run build
+```
+
+Para visualizar a build:
+
+```sh
+npm run preview
+```
+
+Acesse [http://localhost:5173](http://localhost:4173) no navegador.
+
+## 📁 Estrutura do Projeto
+
+- `src/`: Código fonte principal
+  - `components/`: Componentes React (Profile, Skills, HardSkills, SoftSkills)
+  - `assets/`: Imagens e outros arquivos estáticos
+- `public/`: Arquivos públicos
+- `index.html`: Página principal
+- `App.tsx`: Componente raiz da aplicação
+
+## ✨ Funcionalidades
+
+- Exibição de foto de perfil
+- Listagem de Hard Skills e Soft Skills
+- Informações sobre experiência profissional
+
+## 📝 Scripts disponíveis
+
+- `npm run dev`: Inicia o servidor de desenvolvimento
+- `npm run build`: Compila o projeto para produção
+- `npm run preview`: Visualiza a build de produção
+- `npm run lint`: Executa o ESLint para análise de código
+
+## 👨‍💻 Aluno
+
+Marcelo Santos<p>[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelojssantos/)</p>
+
+---

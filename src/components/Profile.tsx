@@ -1,6 +1,6 @@
 export function Profile(){
     return (
-        <div>
+        <div id="id='profile-component'">
             <img src="src\assets\my-photo-profile.jpeg"
              alt="Marcelo Santos"
              width="300px" />
