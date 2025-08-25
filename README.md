@@ -1,6 +1,6 @@
 # 👤 Meu Perfil - React + TypeScript + Vite
 
-Este projeto é uma aplicação simples de perfil pessoal desenvolvida com React, TypeScript e Vite como projeto-aula no curso de Intrução ao React dp Bootcamp Akad - Fullstack Developer da DIO.
+Este projeto é uma aplicação simples de perfil pessoal, com fins didáticos, desenvolvida com React, TypeScript e Vite como projeto-aula no curso de 'Instrução ao React' do 'Bootcamp Akad - Fullstack Developer' na 'DIO'.
 
 Ele exibe informações sobre o desenvolvedor, incluindo foto, habilidades técnicas e comportamentais, além de experiências profissionais.
 
@@ -75,6 +75,8 @@ Acesse [http://localhost:5173](http://localhost:4173) no navegador.
 
 ## 👨‍💻 Aluno
 
-Marcelo Santos<p>[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelojssantos/)</p>
+Marcelo Santos
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelojssantos/)
 
 ---
