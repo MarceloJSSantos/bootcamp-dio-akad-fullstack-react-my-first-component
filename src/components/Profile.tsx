@@ -12,7 +12,7 @@ export function Profile(){
 
 export function Job(){
     return(
-        <p>Atualmente não estou empregado. Mas minha última colocação foi na NTT Data.</p>
+        <p>Atualmente não estou empregado. Mas minha última colocação foi na NTT DATA Europe & Latam.</p>
     )
 }
 
