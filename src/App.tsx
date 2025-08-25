@@ -1,6 +1,7 @@
 import './App.css'
 import {Profile, Job} from './components/Profile'
 import JobFC from './components/Profile'
+import { Skills } from './components/Skills'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Profile />
       <Job />
       <JobFC />
+      <Skills />
     </div>
   )
 }
